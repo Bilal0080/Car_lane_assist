@@ -1,4 +1,22 @@
 import cv2
+
+# Image Load Karo (Ensure karo file path sahi ho)
+image = cv2.imread("test_image.jpg")
+
+# Image Show Karo
+cv2.imshow("Test Image", image)
+cv2.waitKey(0)  # Window ko open rakhne ke liye
+cv2.destroyAllWindows()
+
+
+# Image Load Karo (Ensure karo file path sahi ho)
+image = cv2.imread("test_image.jpg")
+
+# Image Show Karo
+cv2.imshow("Test Image", image)
+cv2.waitKey(0)  # Window ko open rakhne ke liye
+cv2.destroyAllWindows()
+
 import numpy as np
 
 def preprocess_frame(frame):
